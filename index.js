@@ -13,6 +13,7 @@ module.exports = function (di, directory) {
 
     var helper = require('./lib/di')(di, directory);
 
+	
     var injectables = _.flattenDeep(
         [
             // NPM Packages
